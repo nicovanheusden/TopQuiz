@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.GameActivity">
+
+    <TextView
+        android:id="@+id/activity_game_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:text="Questions ?"
+        android:textSize="40sp"></TextView>
+
+    <Button
+        android:id="@+id/activity_game_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="REPONSE 1"
+        android:textSize="20sp"></Button>
+    <Button
+        android:id="@+id/activity_game_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:text="REPONSE 2"
+        android:textSize="20sp"></Button>
+    <Button
+        android:id="@+id/activity_game_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="REPONSE 3"
+        android:textSize="20sp"></Button>
+
+    <Button
+        android:id="@+id/activity_game_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:text="REPONSE 4"
+        android:textSize="20sp"></Button>
+
+
+</LinearLayout>
